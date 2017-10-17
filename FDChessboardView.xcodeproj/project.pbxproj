@@ -22,6 +22,19 @@
 		D9E066961CCECB3200E0D7CB /* wr.png in Resources */ = {isa = PBXBuildFile; fileRef = D9E0668A1CCECB3200E0D7CB /* wr.png */; };
 		D9FEF4BF1CCEBC0F0013FBDD /* FDChessboardView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9FEF4B41CCEBC0D0013FBDD /* FDChessboardView.framework */; };
 		D9FEF4C41CCEBC100013FBDD /* FDChessboardViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FEF4C31CCEBC100013FBDD /* FDChessboardViewTests.swift */; };
+		DDE497D71F96B7500079A1A7 /* FDChessboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94BE1CE1CCEBFD80042282A /* FDChessboardView.swift */; };
+		DDE497DB1F96B7500079A1A7 /* wp.png in Resources */ = {isa = PBXBuildFile; fileRef = D9E066881CCECB3200E0D7CB /* wp.png */; };
+		DDE497DC1F96B7500079A1A7 /* bq.png in Resources */ = {isa = PBXBuildFile; fileRef = D9E066831CCECB3200E0D7CB /* bq.png */; };
+		DDE497DD1F96B7500079A1A7 /* wq.png in Resources */ = {isa = PBXBuildFile; fileRef = D9E066891CCECB3200E0D7CB /* wq.png */; };
+		DDE497DE1F96B7500079A1A7 /* bk.png in Resources */ = {isa = PBXBuildFile; fileRef = D9E066801CCECB3200E0D7CB /* bk.png */; };
+		DDE497DF1F96B7500079A1A7 /* bn.png in Resources */ = {isa = PBXBuildFile; fileRef = D9E066811CCECB3200E0D7CB /* bn.png */; };
+		DDE497E01F96B7500079A1A7 /* wk.png in Resources */ = {isa = PBXBuildFile; fileRef = D9E066861CCECB3200E0D7CB /* wk.png */; };
+		DDE497E11F96B7500079A1A7 /* wr.png in Resources */ = {isa = PBXBuildFile; fileRef = D9E0668A1CCECB3200E0D7CB /* wr.png */; };
+		DDE497E21F96B7500079A1A7 /* br.png in Resources */ = {isa = PBXBuildFile; fileRef = D9E066841CCECB3200E0D7CB /* br.png */; };
+		DDE497E31F96B7500079A1A7 /* bb.png in Resources */ = {isa = PBXBuildFile; fileRef = D9E0667F1CCECB3200E0D7CB /* bb.png */; };
+		DDE497E41F96B7500079A1A7 /* wb.png in Resources */ = {isa = PBXBuildFile; fileRef = D9E066851CCECB3200E0D7CB /* wb.png */; };
+		DDE497E51F96B7500079A1A7 /* wn.png in Resources */ = {isa = PBXBuildFile; fileRef = D9E066871CCECB3200E0D7CB /* wn.png */; };
+		DDE497E61F96B7500079A1A7 /* bp.png in Resources */ = {isa = PBXBuildFile; fileRef = D9E066821CCECB3200E0D7CB /* bp.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +66,8 @@
 		D9FEF4BE1CCEBC0F0013FBDD /* FDChessboardViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FDChessboardViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9FEF4C31CCEBC100013FBDD /* FDChessboardViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FDChessboardViewTests.swift; sourceTree = "<group>"; };
 		D9FEF4C51CCEBC100013FBDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDE497EA1F96B7500079A1A7 /* FDChessboardViewTVOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FDChessboardViewTVOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDE497EB1F96B7510079A1A7 /* Info-tvOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info-tvOS.plist"; path = "/Users/pettersamuelsen/Dropbox (BEKK)/Personal/ChessTV/Forks/Source/Info-tvOS.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +83,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9FEF4BF1CCEBC0F0013FBDD /* FDChessboardView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE497D81F96B7500079A1A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,6 +130,7 @@
 			children = (
 				D9FEF4B41CCEBC0D0013FBDD /* FDChessboardView.framework */,
 				D9FEF4BE1CCEBC0F0013FBDD /* FDChessboardViewTests.xctest */,
+				DDE497EA1F96B7500079A1A7 /* FDChessboardViewTVOS.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -117,6 +140,7 @@
 			children = (
 				D94BE1CE1CCEBFD80042282A /* FDChessboardView.swift */,
 				D9FEF4B91CCEBC0D0013FBDD /* Info.plist */,
+				DDE497EB1F96B7510079A1A7 /* Info-tvOS.plist */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -134,6 +158,13 @@
 
 /* Begin PBXHeadersBuildPhase section */
 		D9FEF4B11CCEBC0D0013FBDD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE497D91F96B7500079A1A7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -179,6 +210,24 @@
 			productReference = D9FEF4BE1CCEBC0F0013FBDD /* FDChessboardViewTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		DDE497D51F96B7500079A1A7 /* FDChessboardViewTVOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDE497E71F96B7500079A1A7 /* Build configuration list for PBXNativeTarget "FDChessboardViewTVOS" */;
+			buildPhases = (
+				DDE497D61F96B7500079A1A7 /* Sources */,
+				DDE497D81F96B7500079A1A7 /* Frameworks */,
+				DDE497D91F96B7500079A1A7 /* Headers */,
+				DDE497DA1F96B7500079A1A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FDChessboardViewTVOS;
+			productName = FDChessboardView;
+			productReference = DDE497EA1F96B7500079A1A7 /* FDChessboardViewTVOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -199,6 +248,9 @@
 						DevelopmentTeam = 8Q693ZG5RN;
 						LastSwiftMigration = 0900;
 					};
+					DDE497D51F96B7500079A1A7 = {
+						DevelopmentTeam = 8Q693ZG5RN;
+					};
 				};
 			};
 			buildConfigurationList = D9FEF4AE1CCEBC0D0013FBDD /* Build configuration list for PBXProject "FDChessboardView" */;
@@ -214,6 +266,7 @@
 			projectRoot = "";
 			targets = (
 				D9FEF4B31CCEBC0D0013FBDD /* FDChessboardView */,
+				DDE497D51F96B7500079A1A7 /* FDChessboardViewTVOS */,
 				D9FEF4BD1CCEBC0F0013FBDD /* FDChessboardViewTests */,
 			);
 		};
@@ -246,6 +299,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DDE497DA1F96B7500079A1A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDE497DB1F96B7500079A1A7 /* wp.png in Resources */,
+				DDE497DC1F96B7500079A1A7 /* bq.png in Resources */,
+				DDE497DD1F96B7500079A1A7 /* wq.png in Resources */,
+				DDE497DE1F96B7500079A1A7 /* bk.png in Resources */,
+				DDE497DF1F96B7500079A1A7 /* bn.png in Resources */,
+				DDE497E01F96B7500079A1A7 /* wk.png in Resources */,
+				DDE497E11F96B7500079A1A7 /* wr.png in Resources */,
+				DDE497E21F96B7500079A1A7 /* br.png in Resources */,
+				DDE497E31F96B7500079A1A7 /* bb.png in Resources */,
+				DDE497E41F96B7500079A1A7 /* wb.png in Resources */,
+				DDE497E51F96B7500079A1A7 /* wn.png in Resources */,
+				DDE497E61F96B7500079A1A7 /* bp.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -262,6 +334,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9FEF4C41CCEBC100013FBDD /* FDChessboardViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE497D61F96B7500079A1A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDE497D71F96B7500079A1A7 /* FDChessboardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +408,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -378,6 +459,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -455,6 +537,53 @@
 			};
 			name = Release;
 		};
+		DDE497E81F96B7500079A1A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8Q693ZG5RN;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Source/Info-tvOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.phor.FDChessboardView.FDChessboardView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		DDE497E91F96B7500079A1A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8Q693ZG5RN;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Source/Info-tvOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.phor.FDChessboardView.FDChessboardView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -481,6 +610,15 @@
 			buildConfigurations = (
 				D9FEF4CC1CCEBC100013FBDD /* Debug */,
 				D9FEF4CD1CCEBC100013FBDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDE497E71F96B7500079A1A7 /* Build configuration list for PBXNativeTarget "FDChessboardViewTVOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDE497E81F96B7500079A1A7 /* Debug */,
+				DDE497E91F96B7500079A1A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
